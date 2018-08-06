@@ -1,0 +1,14 @@
+:root {
+    --maincolor: brown;
+    --mainSize: 20px;
+}
+body {
+    font-family: system-ui;
+}
+p {
+    color: var(--maincolor);
+    font-size: calc(var(--mainSize) + var(--mainSize));
+    & span {
+        color: orange;
+    }
+}

@@ -1,0 +1,6 @@
+:root {
+    --mainSize: 20px;
+}
+span {
+    font-size: calc(var(--mainSize))
+}
